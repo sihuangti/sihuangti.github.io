@@ -1,0 +1,101 @@
+.container{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans';
+}
+
+.newsletter{
+  color: grey;
+  border: thin solid #cfcfcf;
+  padding: 10px;
+  border-radius: 3px;
+  padding-bottom: 20px;
+  
+  position: relative;
+}
+
+.newsletter h3{
+  margin-top: 0;
+}
+
+.newsletter button {
+  background: #3cb878;
+  color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+.newsletter input#email{
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1%;
+  border: 1px solid #cfcfcf;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.newsletter input#terms{
+  position: relative;
+  top: 1px;
+  margin-top: 2.5%;
+}
+
+.newsletter #x{
+  position: absolute;
+  top: 0;
+  right: 0.8%;
+}
+
+#questionMark{
+  background: #3cb878;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  
+  box-shadow: 0px 0px 3px 3px grey;
+}
+
+.card{
+  background: #3cb878;
+  color: white;
+  width: 180px;
+  text-align: center;
+  padding: 20px 0;
+ 
+/*  padding-top: 20px;
+  padding-bottom: 20p */
+  
+  box-shadow: 0px 0px 5px 2px grey;
+}
+  
+.card h3{
+  margin-bottom: 0;
+  margin-top: 10%;
+}
+
+#cardholder{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+/* align-items: center vagy flex-start vagy flex-end;
+  flex-direction: row; (alap/vízszintes/ állapot)
+  flex-direction: row-reverse; (fordíított/tükrözött állapot)
+  flex-direction: column; (függőleges állapot) */
+  
+  Flex-wrap: wrap;
+  
+/*flex-wrap: wrap; sortörést tesz bele, reszponzív! */
+}
